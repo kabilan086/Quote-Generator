@@ -32,7 +32,7 @@
   function generateQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").innerText = `"${quotes[randomIndex].text}"`;
-    document.getElementById("author").innerText = `${quotes[randomIndex].author}`;
+    document.getElementById("author").innerText = `- ${quotes[randomIndex].author}`;
     
 }
 </script>
